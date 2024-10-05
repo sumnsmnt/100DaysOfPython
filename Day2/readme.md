@@ -7,7 +7,7 @@
 * f-Strings
 
 **Project 1:**
-BMI Calculator
+* BMI Calculator
 
 **What the program does:**
 * It calculate user's BMI based upon their input.
@@ -16,7 +16,7 @@ BMI Calculator
 * Then it calculate BMI using this formula => (weight / (height ** 2))
 
 **Project 2:**
-Tip Calculator
+* Tip Calculator
 
 **What the program does:**
 * It calculates how much bill each person will pay based upon their bill and tip.
