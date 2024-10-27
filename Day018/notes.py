@@ -112,28 +112,43 @@ the_turtle = Turtle()
 #     the_turtle.setheading(choice(directions))
 
 
-# 5. Draw a Spirograph
-from random import choice, randint
-import turtle as t
+# # 5. Draw a Spirograph
+# from random import choice, randint
+# import turtle as t
 
-t.colormode(255)
-the_turtle.pensize(3)
+# t.colormode(255)
+# the_turtle.pensize(3)
 
-def random_color():
-    red = randint(0, 255)
-    blue = randint(0, 255)
-    green = randint(0, 255)
-    the_turtle.pencolor(red, green, blue)
+# def random_color():
+#     red = randint(0, 255)
+#     blue = randint(0, 255)
+#     green = randint(0, 255)
+#     the_turtle.pencolor(red, green, blue)
 
-def draw_spirograph(gap_size):
-    for line in range(int(360 / gap_size)):
-        random_color()
-        the_turtle.circle(100)
-        the_turtle.speed("fastest")
-        the_turtle.setheading(the_turtle.heading() + gap_size)
+# def draw_spirograph(gap_size):
+#     for line in range(int(360 / gap_size)):
+#         random_color()
+#         the_turtle.circle(100)
+#         the_turtle.speed("fastest")
+#         the_turtle.setheading(the_turtle.heading() + gap_size)
 
-draw_spirograph(10)
+# draw_spirograph(10)
 
 
-screen = Screen()
-screen.exitonclick()
+# screen = Screen()
+# screen.exitonclick()
+
+
+# # 6. Extract RGB values from an image
+# import colorgram
+
+# rgb_colors = []
+# colors = colorgram.extract('image.jpg', 30)
+# for color in colors:
+#     r = color.rgb.r
+#     g = color.rgb.g
+#     b = color.rgb.b
+#     new_colors = (r, g, b)
+#     rgb_colors.append(new_colors)
+
+# print(rgb_colors)
