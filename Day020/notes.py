@@ -1,9 +1,3 @@
-
-# Detect collision with food
-# Create a scoreboard
-# Detect collision with wall
-# Detect collision with tail
-
 from turtle import Turtle, Screen
 import time
 # 1. Create a black screen for the game
@@ -43,9 +37,10 @@ while game_is_on:
     segments[0].forward(20)
 
 # Control the snake
-
-
-
+# Detect collision with food
+# Create a scoreboard
+# Detect collision with wall
+# Detect collision with tail
 
 
 
