@@ -19,3 +19,15 @@ The finished projects are listed below:
 * Rock Paper Scissors
 * Treasure Map
 * Password Generator
+* Hangman
+* Caesar Cipher
+* Secret Auction
+* Calculator using Functions
+* BlackJack Game
+* Number Guessing Game
+* High Low Guessing Game
+* Coffee Machine
+* Quiz
+* Painting using Turtle module
+* Turtle Racing Game
+* Snake Game
